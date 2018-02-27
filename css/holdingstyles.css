@@ -59,6 +59,12 @@ html, body {
 	}
 }
 
+@media (max-height: 700px) {
+	.titles {
+		margin-top: -30px;
+	}
+}
+
 #hero .logo {
 	max-width: 200px;
 	height: auto;
