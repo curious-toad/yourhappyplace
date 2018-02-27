@@ -121,6 +121,12 @@ a, a:hover, a:visited {
 	color: #139aac;
 }
 
+@media (max-width: 700px) {
+	p {
+		margin-top: -15px;
+	}
+}
+
 /** ELEMENTS **/
 
 #hero {
