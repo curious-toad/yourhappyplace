@@ -46,7 +46,7 @@ html, body {
 	}
 	
 	#hero h3 {
-		font-size: 1.85rem;
+		font-size: 2.5rem;
 	}
 }
 	
@@ -66,14 +66,17 @@ html, body {
 }
 
 #hero .logo {
-	max-width: 200px;
+	max-width: 125px;
 	height: auto;
-	margin-bottom: 20px;
-}
+	margin: 20px auto;
+	padding-top: 10px;
+	display: block;
+	}
 
 @media (min-width: 701px) {
 	#hero .logo {
-		margin-bottom: 40px;
+		margin-bottom: 30px;
+		max-width: 150px;
 	}
 }
 
@@ -96,9 +99,10 @@ html, body {
 /** TYPOGRAPHY **/
 
 h1, h2, h3 {
-	font-family: 'Abril Fatface', /*'Bowlby One SC',*/ Arial, Helvetica, sans-serif;
+	font-family: 'aracne_regularregular', Arial, Helvetica, sans-serif;
 	text-align: center;
-	color: #139aac;
+	text-transform: uppercase;
+	color: #18A3AC;
 }
 
 p {
@@ -106,7 +110,7 @@ p {
 }
 
 a, a:hover, a:visited {
-	color: #ff641a;
+	color: #F48024;
 	text-decoration: none;
 }
 
@@ -124,7 +128,7 @@ a, a:hover, a:visited {
 	text-align: center;
 	font-size: 1.75rem;
 	font-weight: bold;
-	color: #139aac;
+	color: #18A3AC;
 }
 
 @media (max-width: 700px) {
@@ -138,7 +142,9 @@ a, a:hover, a:visited {
 #hero {
 	position: relative;
 	background-color: #226089;
-	background: url("../images/hero.jpg") center;
+	background: url("../images/hero-festival.jpg") center;
+	height: 100%;
+	width: auto;
 	color: #fff;
 	 display: flex;
     align-items: center;
@@ -146,8 +152,8 @@ a, a:hover, a:visited {
 
 @media (max-width: 700px) {
 	#hero {
-		background: url("../images/hero.jpg") no-repeat;
-		background-position: -1000px -50px;
+		background: url("../images/hero-festival.jpg") no-repeat;
+		background-position: -1200px -150px;
 	}
 }
 
@@ -169,6 +175,7 @@ a, a:hover, a:visited {
 
 #footer {
 	font-size: 1.25rem;
+	margin-top: 20px;
 }
 
 .pod {
@@ -207,8 +214,9 @@ a, a:hover, a:visited {
 	margin: 20px auto;
 }
 
-.logo {
+/*.logo {
 	margin: 30px auto;
 	display: block;
-	max-width: 200px;
-}
+	max-width: 150px;
+	height: auto;
+}*/
