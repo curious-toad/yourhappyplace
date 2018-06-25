@@ -140,7 +140,7 @@ a, a:hover, a:visited {
 #hero {
 	position: relative;
 	background-color: #226089;
-	background: url("../images/hero.jpg") center;
+	background: url("../images/hero-sparkler.jpg") center;
 	height: 100%;
 	width: auto;
 	color: #fff;
@@ -150,8 +150,8 @@ a, a:hover, a:visited {
 
 @media (max-width: 700px) {
 	#hero {
-		background: url("../images/hero.jpg") no-repeat;
-		background-position: -1000px -50px;
+		background: url("../images/hero-sparkler.jpg") no-repeat;
+		background-position: -600px -50px;
 	}
 }
 
