@@ -100,6 +100,7 @@ html, body {
 h1, h2, h3 {
 	font-family: 'Aracne Regular', Arial, Helvetica, sans-serif;
 	text-align: center;
+	text-transform: uppercase;
 	color: #18A3AC;
 }
 
