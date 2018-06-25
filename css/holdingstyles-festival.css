@@ -46,7 +46,7 @@ html, body {
 	}
 	
 	#hero h3 {
-		font-size: 1.85rem;
+		font-size: 2.5rem;
 	}
 }
 	
@@ -69,6 +69,7 @@ html, body {
 	max-width: 125px;
 	height: auto;
 	margin: 20px auto;
+	padding-top: 10px;
 	display: block;
 	}
 
@@ -98,8 +99,9 @@ html, body {
 /** TYPOGRAPHY **/
 
 h1, h2, h3 {
-	font-family: 'Aracne Regular', Arial, Helvetica, sans-serif;
+	font-family: 'aracne_regularregular', Arial, Helvetica, sans-serif;
 	text-align: center;
+	text-transform: uppercase;
 	color: #18A3AC;
 }
 
